@@ -1,0 +1,211 @@
+EXECUTIVE SUMMARY
+
+COST Action 730
+
+The UNIVERSAL THERMAL CLIMATE INDEX UTCI FOR ASSESSING THE THERMAL ENVIRONMENT OF THE HUMAN BEING
+
+
+1.	Background and motivation
+One of the fundamental issues in human biometeorology is the assessment and forecast of the thermal environment in a sound, effective and practical way. This is due to the need for human beings to adapt their heat budget to the thermal environment in order to optimise comfort, performance and health. 
+
+The heat exchange between the human body and its environment takes place by sensible and latent heat fluxes, radiation and (generally negligible) conduction. Consequently dealing with the thermo-physiologically significant assessment of the thermal environment requires the application of a complete heat budget model that takes all mechanisms of heat exchange into account (Buettner, 1938; Parsons, 2003). Input variables include air temperature, water vapour pressure, wind velocity, mean radiant temperature including the short- and long-wave radiation fluxes of the atmosphere, in addition to metabolic rate and clothing insulation. However, none of the more than 100 available assessment procedures can be taken as satisfactory considering thermal-physiology and heat exchange theory and the vast majority of them show unacceptable shortcomings. This is evident for the so-called simple (mostly two parameter) indices but (to a less degree) also true for the heat budget models which defined the state-of-the-art within the last 30-40 years. None of these indices fulfilled the essential requirement that for each index value there must always be a unique thermo-physiological effect, regardless of the combination of the meteorological input values. Due to the different thermal assessment procedures applied in biometeorological study results were never comparable which hampers both science and application.
+
+A couple of years ago Prof Peter Höppe, in that time President of the International Society on Biometeorology ISB and author of the PET model, brought this issue on the agenda. An ISB-Commission (Chair: Gerd Jendritzky, co-chair: Richard de Dear) ”On the development of a Universal Thermal Climate Index UTCI” (Working title) (Jendritzky et al., 2002) was established in order to integrate new knowledge and concerns into a Universal Thermal Climate Index, (working title: UTCI), for assessments of the outdoor thermal environment. Since 2005 these efforts were reinforced by COST Action 730 (Cooperation in Science and Technical Development) that provides the basis for European scientists from 19 countries plus experts from Australia, Canada, Israel and New Zealand to meet on a regular basis in order to achieve significant progress in deriving such an index ( HYPERLINK "http://www.utci.org" www.utci.org). Aim is an internationally accepted assessment procedure based on scientific progress in human response related thermo-physiological modelling over the last four decades. The term “universal” must be understood in terms of appropriateness for all assessments of the outdoor thermal conditions in the major human biometeorological fields such as daily forecasts and warnings of extreme weather, to bioclimatic mapping, urban and regional planning, environmental epidemiology and climate impacts research. This covers the fields of public weather service, the public health system, precautionary planning, and climate impact research in the health sector.
+
+The development of UTCI requires co-operation of experts from thermal-physiology, thermo-physiological modelling, occupational medicine, meteorological data handling and in particular radiation modelling, application development etc... In order to achieve significant progress it was necessary that the relevant scientists met on a regular basis. It was thus evident that for such a multidisciplinary task a COST Action provided the best framework to derive a health related, physiologically based, climate index. 
+
+2.		Objectives
+The main objective of the Action was to develop and make easily available a physiologically relevant assessment model of the thermal environment in order to significantly enhance applications related to health and well-being, the core issues of human biometeorology. The model to be developed should be based on the-state-of-the-art in the cause-effect related assessments of the outdoor thermal environment.
+
+The Universal Thermal Climate Index UTCI (working title) needed to meet the following requirements:
+
+Thermo-physiological significance in the whole range of heat exchange conditions of existing thermal environments
+Valid in all climates, seasons, and scales
+Useful for key applications in human biometeorology.
+ 
+This was to be supported through the following specific objectives:
+
+To identify and make recommendations on the data requirements for running UTCI in the different applications.
+To develop application oriented parameterization schemes for the calculation of mean radiant temperature (Tmrt) based on different data bases.
+To increase the accessibility of state-of-the-art assessment procedures and related information using a web portal and other dissemination platforms.
+To produce open and easy guidance and recommendations for using UTCI within the various applications.
+
+3. 	Benefits
+Currently, only few scientists can run cause-effect related assessment procedures in human biometeorology. Most agencies base their applications in this field on oversimplified approaches, mainly due to the lack of skills.  UTCI, together with the recommendations on input data requirements, should help considerably to solve the problem. 
+
+There is a range of specific benefits, such as:
+
+The COST Action provided an authoritative forum for the discussion of an adequate thermal assessment procedure and its applications.
+Recommendations from the Action will encourage European national meteorological and hydrological services (NMHS) to implement and apply a UTCI with a rational assessment procedure. This should motivate also NMHSs from other continents to follow.
+Applications will be standardized and communication to the public and/or decision makers will be easier (as too was the case for the UV-Index developed by COST-713).
+Research results will be more easily comparable.
+The provided guidance for employing the UTCI for the various applications will assist users at different levels including universities, research agencies, NMHSs (National meteorological and hydrological services), environmental agencies, city authorities, planners etc.
+Considering the growing concern about heat wave problems in the context of climate variability /climate change, decision makers can base their legislative actions on a state-of-the-art and harmonized UTCI for example.
+Based on current scientific progress, and with increased international travel and easy access to information, there is a need for global harmonization of the development and dissemination of various weather and climatic indices.  This idea is supported by the recent successful experience with the worldwide introduction of a universal UV-index under the umbrella of the WHO and the WMO (for Europe see COST-713). 
+UTCI is based on the most advanced (multi-node) thermo-physiological model which was evaluated in an extend never seen before. Thus it defines the state-of-the-art. Due to its up-to-date scientific basis it is superior to the present assessment procedure although there are often only small differences in the results.
+	
+4. 	Scientific programme
+The process of developing a UTCI addressed the following issues:
+
+Physiological modelling of the human body and its heat budget
+Physiologically relevant assessment of heat budget model outcomes including acclimatisation
+Testing results against available field data
+Identification and pre-processing of  meteorological input data
+Estimating radiation quantities
+Addressing the specific needs of various applications
+
+
+The interdisciplinary issue of the development of UTCI becomes evident. Topics a), b) refer to thermo-physiology, c), d) to atmospheric science (meteorology), and e) to a wide range of meteorological applications list. According to this, the above listed topics were addressed by three working groups:
+
+	WG1  Thermo-physiological modelling and testing
+	WG2  Meteorological and environmental data
+	WG3  Applications
+
+The ISB Commission on UTCI has defined that, when fully developed, the UTCI should aim to feature the following:
+
+The most advanced multi-node thermo-physiological models as reference to obtaining the key results from systematic simulations.
+Include the capability to predict both whole body thermal effects (hypothermia and hyperthermia; heat and cold discomfort), and local effects (facial, hands and feet cooling and frostbite).
+Represent a temperature-scale index, (i.e. the air temperature of a defined reference environment providing the same thermal strain).
+
+The COST Action 730 followed this reasonable convention.
+
+(WG1): After model comparisons it became consensus to base UTCI on Fiala’s meanwhile 340-node model. This model simulates phenomena of the human heat transfer inside the body and at its surface taking into account the anatomical, thermal and physiological properties of the human body. Heat losses from body parts to the environment are modelled in detail considering the inhomogeneous distribution of temperature and thermoregulatory responses over the body surface (see Fig. 1). Besides overall thermo-physiological variables, multi-segmental models are thus capable of predicting 'local' characteristics such as skin temperatures of individual body parts (which are the critical variables in the risk of frostbite and skin damage). Validation studies have shown that such multi-node models reproduce the human dynamic thermal behaviour over a wide range of thermal circumstances (Fiala et al. 2001; Havenith 2001). 
+
+Fig. 1	Schematic presentation of a physiological model of human thermoregulation (Fiala et al., 2001)
+
+
+Verification and validation work within COST Action 730 using 65 independent experiments from different sources revealed good agreement with measured data for regulatory responses, mean and local skin temperatures, and internal temperatures for the whole spectrum of environmental conditions (Psikuta et al. 2007). Based on literature review and own field studies it was decided to consider people’s clothing behaviour (i.e. how much insulation they put on) dependent on just air temperature in a non-linear way in the range of Icl = 0.4 clo to 3.0 clo. In this context it is crucial to understand that recently published approaches on wind controlled changes in the permeability of clothing have been taken into account (Nilsson et al, 2000; Havenith and Nilsson, 2004). Compared to former models dealing with clothing this provides significantly different results. The “typical” walking speed was set to 4 km/h which corresponds to a metabolic rate of 2.3 MET. 
+
+The forecast of UTCI fields with high resolution e.g. in the framework of a Numerical Weather Forecast requires possibly some million UTCI calculations over a day. Thus the operational procedure for the UTCI calculation must be computer time efficient. This excludes the repeatedly running of the calibration standard “original advanced Fiala model”. Instead, the operational procedure follows a regression approach based on the outcome of some 100,000 simulations with the help of the advanced Fiala-model covering all (i.e. also the most extreme on the global scale) encountered combinations of the meteorological input variables. 
+
+(WG2): The atmospheric variables determining the complex heat exchange conditions are air temperature, wind velocity, water vapour pressure, and short-wave (solar) radiation and the long-wave (infrared) radiant fluxes emitted by the surroundings including the sky. Difficulties in obtaining the required meteorological input data are often underestimated, particularly with respect to wind and radiation. The data issue is closely related to the various applications in space and time. Basically we can distinguish between observational (SYNOP, climate) data, model data (e.g. weather forecast, climate simulation), and additionally environmental data, such as geophysical data including land use. Depending on various applications there are a series of specific problems with different data types considering information content, resolution in time and space and availability. So WG2 found solutions to the problem of the input data for every key application. The loss of accuracy and limitations linked to the use of subsidiary data were also assessed. In any case deriving the required radiation data is the critical task both from easily available observational data (clouds!!) and from atmospheric modelling.
+
+(WG3): The key issues of human biometeorology cover a wide range of applications to be developed in a way that meets the needs of potential users. So the basic task of WG3 was bridging the gap between science and application. Every field needs specific meteorological and environmental data which were addressed in close collaboration with WG2. Almost all applications described below are already dealt with somewhere, but not yet using UTCI. Thus most of the examples for practical applications given in chapter 4.3 are based on PT, Menex, or PET which all need the same input variables as UTCI.
+
+The following fields of applications were considered as in particular              significant for users:
+
+Public weather service. The issue is how to inform and advice the public on thermal conditions at a short time scale (weather forecast) for outdoor activities, appropriate behaviour, and climate-therapy.
+Public health system. In order to mitigate adverse health effects by extreme weather events (here heat waves and cold spells) it is necessary to implement appropriate disaster preparedness plans. This requires warnings about extreme thermal stress so that interventions can be released in order to save lives and reduce ill-health.
+Precautionary planning. UTCI assessments provide the basis for a wide range of applications in public and individual precautionary planning such as urban and regional planning, in the tourism industry, for climate researchers. This is true for all applications where climate is related to human beings. The increasing reliability of ECMWF (European Centre for Medium-Range Weather Forecasts) monthly or seasonal forecasts will be considered to help develop appropriate operational UTCI products.
+Climate impact research in the health sector. The increasing awareness of climate change and therewith related health impacts requires epidemiological studies based on cause-effect related approaches. UTCI will be the appropriate assessment model. So also scenario based calculations and down-scaling methods in the climate change and human health field need appropriate UTCI based procedures.
+
+
+
+5.	Deliverables	  (where these were met a ‘√’ is added)
+WG1:
+Validate state-of-the-art multi-node model(s) for boundary conditions relevant to atmospheric environments.								√
+Establish and review a data base of simulated physiological data based on multi-node models and comparable atmospheric environments. 			√
+Establish and assess a systematic comparison of selected existing “simple” assessment procedures.								√
+Develop a UTCI model derived from deliverables 1 to 3.				√
+Provision of the UTCI model in parameterised form.				√
+Establish recommendations on how to deal with human adaptation and acclimatisation.
+	 HeRATE is an available procedure but there was no time to deal with this 	issue comprehensively. Thus HeRATE will be described but without a formal 	recommendation.
+Assess the range of applicability, strengths and weaknesses of the new UTC-index based on documented and reviewed experience. 				√
+	UTCI is appropriate for thermal assessments in all climates and scales within 	the limits of its definition (general public, metabolic rate; no individual 	characteristics such as age, gender, etc.).
+Suggest a better name for the index instead of the artificial UTCI.
+	Many suggestions are listed. Term “Temperature” essential, easy to 	understand from the general public, easy to translate. Option: In science keep 	UTCI.
+WMO Guideline Part I on “UTCI”
+	In preparation based on scientific report.
+
+WG2:
+Definition of the necessary meteorological and environmental data and identification of data availability.							√
+Supply of appropriate methods for the calculation of the radiant fluxes based on various meteorological input data sets including validity assessments.		√
+Provision of parameterization schemes for the calculation of Tmrt		√
+In effect, the problems in deriving radiant fluxes were comprehensively described and the crucial items are identified. Due to the multitude of potential input data levels no single parameterization scheme could be given.
+Deriving schemes on how to reduce the wind velocity from the actual height to the level of the person in the physiological model (1.1m).				√
+WMO Guideline Part II on “UTCI”.
+	In preparation based on scientific report.
+
+WG3:
+Survey and assessment of each application including user needs and benefits, specific data needs (with WG2) and possible other requirements.		√
+In effect, a multitude of examples out of the wide range of applications have 	been assembled  including user needs and benefits, specific data needs (with WG2) and possible other requirements.  
+
+WMO Guideline Part III on “UTCI”.
+In preparation based on scientific report.	
+
+
+6.	Dissemination
+Two specific events fully dedicated to the dissemination of UTCI were organised:
+
+Symposium on UTCI, WMO, April15-16, 2009, Geneva, Switzerland
+
+Training School on UTCI, April 4-7, 2009, Warsaw, Poland
+
+
+Further, papers on UTCI were presented at a multitude of scientific meetings:
+
+13th International Conference on Environmental Ergonomics. August 2-7, 2009, Boston, MA, USA
+
+Spring Conference of the “Gesellschaft für Arbeitswissenschaft (Society of Occupational Science)”, March 4-6, 2009, Dortmund, Germany
+
+International Conference in Biometeorology ICB2008, September 22-26, 2008, Tokyo, Japan
+
+Spring Conference of the “Gesellschaft für Arbeitswissenschaft (Society of Occupational Science)”, April 9-11, 2008, Garching, Germany
+
+Windsor conference on Air-conditioning & The Low Carbon Cooling Challenge. 27-29 July 2008. Windsor Castle, UK
+
+Network for Comfort and Energy Use in Buildings NCEUB, September 20-21, 2007, London, UK
+
+International Congress on Biometeorology, September 17-19, 2007, Polana, Slovakia
+
+12th International Conference on Environmental Ergonomics. August 19-24, 2007, Piran, Slovenia
+
+Windsor conference on Comfort and Energy Use in Buildings. 27-30 April 2006. Windsor Castle, UK
+
+International Conference in Biometeorology ICB2005, September 5-9, 2005, Garmisch, Germany
+
+
+The website  HYPERLINK "http://www.utci.org" www.utci.org has been maintained. The 	UTCI web site also contains the sites of Commission 6 on UTCI of the International Society of Bioclimatology ISB. The internal documents, such as minutes, presentations etc. are available on a password protected member area and the models in a second one just for WG1. An additional protected area has been established in order to get access on meteorological data made available by WG2 members. The relative limited public availability of material dealt with in COST Action 730 is mainly due to copyright problems and the fact that presentation of not yet published data should be avoided.
+
+Calculators for selected thermal indices such as Perceived Temperature PT, ET*, SET*, HIS, and the ASHRAE 2-node model are implemented on the homepage. 
+In order to improve public perception of UTCI a series of related publications has been put on the website.
+
+7.	Co-operations with other fora
+There was a close collaboration with ISB-Commission 6 on UTCI (Chair: Gerd Jendritzky, co-chair: Richard de Dear) which gave COST Action 730 additionally a global perspective. R. de Dear became the representative of the non-Cost country Australia.
+
+The work is done “under the umbrella of WMO- Commission on Climatology CCl” and will finally be made available in a WMO “Guideline on the Thermal Environment” probably by 2009 based on the Scientific Report of COST Action 730. Thus everybody dealing with human biometeorological assessments, in particular NMSs (National Meteorological Services), but also universities, public health agencies, epidemiologists, environmental agencies, city authorities, planners etc. can then easily apply the state-of-the-art procedure for their specific purposes. 
+
+The UN-ICSC (International Civil Servant Commission) requested a report on the value of UTCI in 2008 and decided then to ask for an application of UTCI in classifying all UN duty stations in terms of relative hardship. This will be carried out in summer 2009.
+
+Links with ISO and CEN working groups on the human thermal environment (ISO TC159/SC5/WG1 and CEN TC122/WG11) were maintained via experts participating in both the Cost Action 730 and the ISO/CEN (Holmér, Kampmann and Havenith).
+
+8.	Conclusion and Recommendations
+Accessible models of human thermoregulation were extensively validated and based on the results the advanced multi-node ‘Fiala’ thermoregulation model was selected for further development in the project. In the next step a state of the art clothing model was integrated. This considers firstly the behavioural adaptation of clothing insulation by the general urban population in relation to the actual environmental temperature, secondly the distribution of clothing over different body parts providing local insulation values for the different model segments, and thirdly the reduction of insulation caused by movement of the wearer and by wind speed.
+
+The concept of UTCI was then developed as an equivalent temperature. This involved the definition of a reference condition to which all other climatic conditions will be compared. The equivalence between real and reference conditions was based on an equivalence of the dynamic physiological response between both. As this dynamic physiological response is multidimensional (body core temperature, sweat rate, skin wittedness etc at different time points), a single dimensional strain index was calculated based on principal component analysis. The UTCI as an equivalent temperature for a given combination of wind, radiation, humidity and air temperature is then defined as the air temperature in the reference condition of humidity, radiation and wind speed, which produces the same strain index value. The associated assessment scale was developed from the simulated physiological responses and comprises 10 categories that range from extreme cold stress – very strong cold stress – strong cold stress – moderate cold stress – slight cold stress – no thermal stress – moderate heat stress – strong heat stress – very strong heat stress – extreme heat stress.  “Stress” is appropriate in this instance since it refers to the insult to the body; strain is the resultant consequence due to exposure. Because the stress-strain concept may not be understood by the general public also a sensation scale has been discussed. 
+
+As the calculation of this equivalent temperature takes too much time if such a value needs to be produced for computer time consuming climate simulations or numerical weather forecasts several options to speed up this calculation were considered. These included look-up tables of pre-calculated index values for all relevant combinations of climate parameters and polynomial regression equation predicting the equivalent temperature values over the same relevant climate combinations. 
+In addition to the whole body climate assessment, also local cooling of exposed skin, together with the frostbite risk was considered. The wind chill effects in cold and windy environments should best be regarded as a transient, rather than a steady-state phenomenon. Additionally distinctions should be made between sensation-related effects and imminent risks to pain, numbness and frostbite. The agreed final procedure is yet to be completed. 
+
+As the model needs to be used with different meteorological data levels (observation data with differing information content; numerical simulation data ;..) procedures to translate these into the correct model input parameters (air temperature, humidity, wind velocity and mean radiant temperature) were assessed. Of these parameters the mean radiant temperature turned out to require the most complex procedures and possesses the largest uncertainty. This was attributed to the limited information contained in the routinely available data (e.g. information on clouds). 
+
+A wide range of potential applications were identified and documented with typical examples. The most prominent being applications in the field of public weather services (weather reports, warnings etc), public health systems, urban planning, tourism & recreation and climate impact research. Due to the scientifically demanding issue of how to derive the radiant fluxes in order to calculate mean radiant temperature as accurately as possible it is recommended to run the UTCI model for the fundamental application in NWPs and climate assessments operationally in RSMCs or RCCs, respectively.
+
+Extensive dissemination of the project results took place in short term scientific missions of young researchers; in presentations at several conferences and in a training school for young scientists. The final outcome was presented in a symposium with WMO. The procedures will be published as a WMO guideline and negotiations are underway for the publication of the scientific report. 
+
+Despite extensive validation of the physiological model, time constraints limited the evaluation and validation of the final outcome, the UTCI index. Hence further experience needs to be gained in the practical application of the new index and of the implications of the choices made in its development. 
+
+It is concluded that, though the COST action provided an excellent platform for the development of the index, certain parts of the follow up work required may not fit optimally in the COST action model. It is therefore suggested that to progress the index further other funding should be pursued, too. This is particularly pertinent as several organisations provided suggestions for special applications of the index, as in occupational health (WHO), public health, and economical impact studies (work performance) of climate change that cannot be covered by the original UTCI which focuses on the general public.
+
+
+
+
+
+
+
+
+
+
+PAGE  
+
+
+PAGE  8
+
+
+
+
+ EMBED Word.Document.8 \s 
+
+
+
+

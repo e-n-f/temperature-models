@@ -1,0 +1,191 @@
+                 Field Survey Results in RUROS project: “CODEBOOK”
+
+
+Variable’s Code       Description of Variable and Units
+Name
+ID                    Identity of each interview
+Data from the questionnaire: Observation details
+country               country code [1=Greece, 2=Switzerland, 3=Italy, 4=UK, 5=Germany]
+                       site of the interview [1=Karaiskaki Sq., 2=Sea-shore of Alimos,
+                       4=Makedonomahon square, 5=Kritis square, 7=Place de la Gare, 8=Jardin de
+site                   Perolles, 9=Piazza Petazzi, 10=Piazza IV Novembre, 11=Piazza I Maggio,
+                       12=All Saints Passage, 13=Silver Street, 14=Peace Garden, 15=Barker's Pool,
+                       16=Florentiner Plaz, 17=Bahnhofs Plaz]
+season                 season of the interview [1=Summer, 2=Autumn, 3=Winter, 4=Spring]
+date                   date of the interview
+time                   time of the interview
+
+time_per               time period of the interview [1=Morning (09:00-11:59), 2=Midday (12:00-
+                       14:59), 3=Afternoon (15:00-17:59), 4=Evening (18:00-20:59)]
+
+location               location of the interviewee on site [see related maps]
+
+age                    interviewee’s age
+                       [1=<12, 2=13-17, 3=18-24, 4=25-34, 5=35-44, 6=45-54, 7=55-64, 8>65]
+
+sex                    interviewee’s gender [1=Male, 2=Female]
+cap                    whether wearing a cap [0=no, 1=yes]
+sunglass               whether wearing sunglasses [0=no, 1=yes]
+earphone               whether wearing earphone [0=no, 1=yes]
+cold_drink             whether consuming a cold drink [0=no, 1=yes]
+hot_drink              whether consuming a hot drink [0=no, 1=yes]
+food                   whether consuming food before or during the interview [0=no, 1=yes]
+
+grouping               whether accompanied
+                       [1=alone, 2=with 1 person, 3=with more than 2 persons, 4=with a dog]
+
+sun_shade              whether standing in the sun during the interview [0=no, 1=yes]
+                       whether doing any movements to screen their eyes during the
+screen_eyes
+                       interview [0=no, 1=yes]
+read_write             whether reading or writing before the interview [0=no, 1=yes]
+wat_distan             whether watching something distant before the interview
+                       [0=no, 1=yes]
+
+direction              direction the interviewee was looking at [0=north, 45=northeast, 90=east,
+                       135=southeast, 180=south, 215=southwest, 270=west, 315=northwest]
+
+activity               activity level [1=sitting as a consumer, 2=sitting free or lying down,
+                       3=standing, 4=walking, 5=sports, 6=playing with a child, 7=playing social games]
+Environmental Data monitored on site during the interviews
+tair                air tempetarture [degC]
+                         Note: measured with a platinum resistance probe (Pt 100)
+                         globe temperature [degC]
+tglobe                   Note: measured with a grey globe thermometer of reflectance 0.5
+                         wind speed [m.sec-1]
+                         Measured with:
+                         an omni-directional hot-wire anemometer (for Greece and Italy),
+wind_sp
+                         a TESTO omni-directional hot-bulb anemometer (for Switzerland),
+                         an omni-directional Airflow TA2 hot-wire anemometer (for UK),
+                         a thies hot-wire anemometer (for Germany).
+                         relative humidity [%]
+rh                       Measured with a psychrometer probe
+                         horizontal illuminance [klux]
+hor_illu                 Measured with an illuminance meter on a horizontal plane
+                         sound pressure level during the interview [dB(A)]
+spl                      Measured with a sound level meter
+Calculated data using the collected monitoring data and observation details
+                       mean radiant temperature [degC]
+                         Calculated using the AHRAE formula:
+mrt
+                         4
+                             (tglobe + 273) 4 + 1.1 × 108 × wind _ sp 0.6 × (tglobe − tair ) ÷ (0.95 × 0.0380.4 ) − 273
+
+clo                      clothing level [clo] – based on ISO 7730
+                         metabolic rate [W.m-2] – based on ISO 7730
+                      Note: the metabolic rate of the interviewee is assumed to change as follows:
+met_rate
+                      -   decrease by 10%, if consuming a cold drink
+                      -   increased by 5%, if consuming a hot drink
+pmv                   predicted mean vote (based on ISO 7730)
+Climatic Data obtained from the nearby meteorological station (based on hourly data)
+tairmet               air temperature from the nearby meteorological station [degC]
+rhmet                 relative humidity from the nearby meteorological station [%]
+wsmet                 wind speed from the nearby meteorological station [m.sec-1]
+solarmet              solar radiation from the nearby meteorological station [W.m-2]
+Data from the questionnaire: Interviewees votes (all refer to the time of the interview)
+heat                  actual sensation vote, ASV
+                         [-2= very cold, -1=cold, 0=neither cool nor warm, 1=warm, 2=very hot]
+sun                      sun vote [-1=prefer more, 0=ok, 1=too much sun]
+wind                     wind speed vote [-2=stale, -1=little wind, 0=ok, 1=windy, 2=too much wind]
+humidity                 relative humidity vote [-1=damp, 0=ok, 1=dry]
+comfort                  perception of comfort [0=no, 1=yes]
+luminous                 perception of the luminous environment
+                         [-2=very dark, -1=dark, 0=neither dark or bright, 1=bright, 2=very bright]
+
+glare                    glare sources [0=nothing, 1=ground or pavement, 2=Surrounding buildings,
+                         3=Vegetation, 4=Water surface, 5=Site equipment, 6=Sky]
+view                     perception of the view from the site [-1=negative, 0=no view, 1=positive]
+sound                    acoustic environment vote
+                         [-2=very quiet, -1=quiet, 0=neither quiet nor noisy, 1=noisy, 2=very noisy]
+
+so_home                  acoustic environment vote at home
+                         [-2=very quiet, -1=quiet, 0=neither quiet nor noisy, 1=noisy, 2=very noisy]
+Data from the questionnaire: Social Profile
+                      reasons for visiting the site
+                       [10=for the site's advantages, 11=for the site’s advantages concerning its
+                          equipment, 12= for the site’s advantages concerning the natural
+                          environment, 13= for the site’s advantages concerning its services, 14=for
+                          the site’s specific urban, architectural, historical significance,
+                       20=for consumption, 21=for drink/food consumption, 22=for shopping at a
+                          store/kiosk/vendor/market,
+                       30=for leisure, 31=for a walk, 32=for relaxation/reading/rest/recreation, 33=for
+                          distraction/entertainment, 34=for sports
+                       40=for a break, 41=for a break from work, 42=for a break from another personal
+                          work, 43=to kill time,
+reas.there
+                       50=for personal reasons, 51=for personal business, 52=for a meeting, 53=to
+                          escort somebody, 54=for a child to play, 55=for sociability,
+                       60=for work, 61= permanent/regular work within the site, 62=work without any
+                          clarification, non permanent/regular work within the site,
+                       70=for social, political, religious reasons,
+                       80=for cultural, educational reasons, 81=for a cultural, educational
+                          reason/regular concert/spectacle/show/permanent exhibition, 82=for a
+                          cultural, educational reason/exceptional, not regular concert, temporary
+                          exhibition,
+                       90=crossing through]
+
+                       place before visiting the site
+                       [1=at home, 2=at work, 3=shopping, 4=at a personal job, 5=at a personal social
+pl.before
+                       activity, 6=at an artistic, cultural, political attendance, 7=at a place related to
+                       education, 8=other nominated place-area, building etc, 9=somewhere else]
+fr.use.a               frequency of use the space per day [indicative number]
+fr.use.b               frequency of use the space per week [indicative number]
+fr.use.c               frequency of use the space per month [indicative number]
+fr.use.d               frequency of use the space per year [indicative number]
+fr.use.e               first time [-1]
+                       what you don’t like in the space
+                       [0=everything ok,
+                       10=unsatisfying equipment/technical conditions/design, 11=design/conception of
+                          the whole space, 12=design/conception of specific features, 13=construction
+                          of space, specific features,
+                       20=unsatisfying natural environment, 21=lack of/inadequate vegetation, water,
+not_like                  etc., 22=polluted air, 23=noise, 24=unpleasant smells,
+                       30=unsatisfying services, 31=inadequate maintenance of the site,
+                          32=inadequate guarding of the site,
+                       40=unsatisfying uses, 41=lack of users’ participation in the preservation of the
+                          site, 42=annoyance by people, special groups and users’ behaviors,
+                          43=annoyance by the existence of dogs, stray dogs, etc.,
+                       50=rubbish, dirt, dog mess]
+Data from the questionnaire: Social Profile (continued)
+                       opinion about the use of space
+                       [10=social/welfare function of site, 11=place used by, or designated for the
+                          children, 12=place used by, or designated for the non-working group of the
+                          population,
+                       20=social/human communication function of site, 21=place for opportunity for
+                          social contact, communication between citizens, sociability, etc, 22=place for
+                          social contact for the local community, for communication and participation
+                          for discussions and activities about local problems, 23=place for private
+                          social contact, with friends, etc,
+use_space              30=leisure function of site, 31=place for walking, sports, etc, 32=place for rest,
+                          relaxation, serenity, reading, 33=place for entertainment, recreation, etc,
+                       40=public events of cultural and historical significance,
+                       50=exchange function of site, 51= place used or designated for commercial
+                          dealing, 52=place that operates as an administrative and services junction of
+                          the city, 53=place that operates as a transport and circulation junction of the
+                          city,
+                       60=perceptional issues, 61=perception of use in city/spaciousness/breakage of
+                          the urban tissue/lung for the city, 62=perception of space for
+                          individuals/freedom/revival/ contact with nature]
+
+loc_inha               if local inhabitant [0=no, 1=yes]
+                       nationality
+                       [1=area of the city that abut on the municipality where the site belongs, 2=other
+                       areas of the city, 3=perfecture or greater area of the city, 4=other prefecture of
+                       the country, 5=other European country, 5.1=Albania, 5.2=Bulgaria, 5.3=Cyprus,
+national
+                       5.4=France, 5.5=Germany, 5.6=Hungary, 5.7=Italy, 5.8=Netherlands,
+                       5.9=Poland, 5.10=Spain, 5.11=Switzerland, 5.12=Turkey, 5.13=Ukraine,
+                       5.14=UK, 6=China and Southern Asia, 7=United States, Canada, Mexico,
+                       8=Australia, 9=Africa, 10=India, 11=Middle East, 12=South America, 13=Other]
+
+                       whether student, pupil etc
+                       [10=pupil, 20=working person, 30=pensioner, 40=housekeeper, 50=other,
+category
+                       51=tourist, 52=unemployed person, 53=visitor for personal reasons, 54=visitor
+                       for social, political, cultural event]
+
+education              educational level [1=primary, 2=secondary, 3= higher]
+

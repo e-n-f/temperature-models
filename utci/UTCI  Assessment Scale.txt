@@ -1,0 +1,32 @@
+UTCI Assessment Scale: UTCI  categorized in terms of thermal stress
+
+UTCI (°C) range
+Stress Category
+above +46
+extreme heat stress
++38 to +46
+very strong heat stress
++32 to +38
+strong heat stress
++26 to +32
+moderate heat stress
++9 to +26
+no thermal stress
++9 to 0
+slight cold stress
+0 to -13
+moderate cold stress
+-13 to -27
+strong cold stress
+-27 to -40
+very strong cold stress
+below -40
+extreme cold stress
+
+
+
+References 
+
+Glossary of Terms for Thermal Physiology (2003). Journal of Thermal Biology 28, 75-106
+
+

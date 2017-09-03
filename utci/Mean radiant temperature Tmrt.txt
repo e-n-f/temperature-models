@@ -1,0 +1,68 @@
+The mean radiant temperature Tmrt
+
+The consideration of radiative heat exchange between the human body and its environment must take the following short-wave and long-wave radiant fluxes into account:
+
+	I*		Direct solar radiation
+	Di		Diffuse solar radiation
+	Di_refl		Reflected solar radiation
+	Ei_sky		Infrared radiation from the sky
+	Ei_surr	Infrared radiation from the surroundings
+
+These fluxes are related to an upright standing (or walking) human being by a mean radiant temperature Tmrt, which is the uniform temperature of a black body enclosure that results in the same radiant heat exchange as under actual conditions.
+
+											(1a) 
+
+			
+
+											(1b)
+
+
+	I*	Direct solar radiation
+ 	Di	Diffuse short-wave radiation
+ 	Ei	Long-wave radiation
+ 	σ 	Stefan-Boltzmann-constant
+ 	εp	Emission coefficient of a human being
+ 	  	Absorption coefficient of a human being
+ 	Fi	Angle factor
+ 	fp	Projected area factor
+ 	n	Number of i surrounding areas
+
+A detailed description on the Tmrt approach and the angle factor issue is given e.g. in Fanger (1970). For most applications beyond the micro-scale (e.g. urban structures) a limitation to only two angle factors (bottom (surroundings) and upper (sky) half space each with Fi = 0,5) can be considered as sufficient. The projected area factor – here, to keep it simple for a rotationally symmetric human being- depends on the elevation of the sun (Figure 1).
+
+fp =0,308 cos (( γ (1 - γ²/48402))						(2)
+
+
+
+
+Figure 1:	Projected Area Factor fp as function of the elevation γ of the sun in degrees, averaged over 360 ° azimuths (rotationally symmetric human being).
+
+
+The input parameters for the computation are provided by a synoptic observation according to code FM 12 of the World Meteorological Organisation (WMO) or a GCM simulation which contains cloud cover data or alternatively forecasts of short-wave or long-wave radiant fluxes. Based on Synop observations the following data are required:
+
+- air temperature (ta) and dew point temperature (td) 2 m above ground
+- wind velocity (ff) (and height of anemometer above ground)
+- total cloud cover (N)
+- cloud cover with low-level/medium-level clouds (Nh) and cloud types of the levels   low, middle and high (groups 8, FM 12).
+
+Beyond that some assumptions considering turbidity, albedo and surface temperatures are necessary.
+
+Relating the radiant fluxes the geometry of an upright human being – instead of a horizontal surface as usual in meteorology – results in the interesting affect that increasing direct solar radiation with increasing solar elevation meets a decreasing exposed surface of the human being. This is the reason that maximum values of Tmrt are not always related to the maximum altitude of the sun but in the forenoon and afternoon. 
+
+Often Tmrt is not considered itself but as deviation from Ta:
+
+	∆Tmrt = Tmrt - Ta 								(1c)
+
+Values for ∆Tmrt range from -18 K (very clear nights) to + 58 K (around noon in high altitudes).
+
+
+Reference
+
+Fanger PO, 1970: Thermal Comfort. Analysis and Application in Environment Engineering. Danish Technical Press, Copenhagen.
+
+ EMBED Equation.3  
+
+ EMBED Equation.3  
+
+
+
+
