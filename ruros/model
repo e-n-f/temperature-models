@@ -79,7 +79,29 @@ fit f(x) "database.sp" using ($10):($39 - (0.0555272 * $25 - 1.00266) - (0.01172
 
 # ultimate model
 fit f(x) "database.sp" using ($39):(-(- (0.0555272 * $25 - 1.00266) - (0.0117299 * $26 - 0.238714) - (0.0847303 * log($27) + 0.0770364) - (-0.0013133 * $28 + 0.0731119) - (0.117271 * log($29) -0.360818))) via m, b
+set yrange [-2.5:2.5]
 plot "database.sp" using ($39 - .5 + rand(0)):(-(- (0.0555272 * $25 - 1.00266) - (0.0117299 * $26 - 0.238714) - (0.0847303 * log($27) + 0.0770364) - (-0.0013133 * $28 + 0.0731119) - (0.117271 * log($29) -0.360818))), f(x)
+unset yrange
 
 
+# wind, illuminance are log scale
 
+set dummy air, globe, wind, humidity, illuminance, sound, clothing, metabol, age, sex
+
+m_air = 0.0555272
+m_globe = 0.0117299
+m_wind = 0.0847303
+m_humidity = -0.0013133
+m_illuminance = 0.117271
+m_sound = .0001
+m_clothing = .0001
+m_metabol = .0001
+m_age = .0001
+m_sex = .0001
+
+f(air, globe, wind, humidity, illuminance, sound, clothing, metabol, age, sex) = m_air * air + m_globe * globe + m_wind * log(wind + .00001) + m_humidity * humidity + m_illuminance * log(illuminance + .00001) + m_sound * sound + m_clothing * clothing + m_metabol * metabol + m_age * age + m_sex * sex + base
+
+fit f(air, globe, wind, humidity, illuminance, sound, clothing, metabol, age, sex) "database.sp" using 25:26:27:28:29:30:32:33:10:11:39 via m_air, m_globe, m_wind, m_humidity, m_illuminance, m_sound, m_clothing, m_metabol, m_age, m_sex, base
+
+set yrange [-2.5:2.5]
+plot "database.sp" using ($39 - .5 + rand(0)):(f($25, $26, $27, $28, $29, $30, $32, $33, $10, $11))
